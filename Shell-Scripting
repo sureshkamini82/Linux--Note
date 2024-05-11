@@ -5,11 +5,9 @@ Shell-scripitng
 
 1) echo $SHELL --------------These are called enviormental variables
 
-2) env
+2) env  (or)    printenv---------------Both are same
 
-3)printenv---------------Both are same
-
-4)    #!/bin/bash  -----> she bong shell
+3)    #!/bin/bash  -----> she bong shell
 
        .sh   -------> this is sheel script extention
 
@@ -17,9 +15,9 @@ Shell-scripitng
        To Run Sheell- script
 ----------------------------------------------------------------------
 
-5) ./t <file name>-----------> ./t suresh.sh
+4) ./t <file name>-----------> ./t suresh.sh
 
-6)  bash <file name> ----------->  bash suresh.sh
+5)  bash <file name> ----------->  bash suresh.sh
 
 
 
