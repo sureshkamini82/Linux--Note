@@ -14,7 +14,7 @@ PWD ----- Pressent Working Directory  or Print Working Directory
 7)mysql --> 3306
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1)Java 1.8--Linux command
 
@@ -63,6 +63,84 @@ sudo amazon-linux-extras install java-openjdk11  -y
    if we get 0 ---that is success
    
    if we get any numner-- that is called failled one
+
+----------------------------------------------------------------------------------------------------------------------------------
+22)Creating and deleting the users
+-----------------------------------
+
+1)If you want to create the user.
+ 
+       useradd user_name (or) adduser user_name
+	
+ Exmple:  useradd suresh
+
+If you want to check whether user created or not.
+
+  id user_name (or) cat /etc/passwd
+
+Exmple:  id suresh
+uid=1001(suresh) gid=1001(suresh) groups=1001(suresh)
+
+
+uid == user id
+gid == group id
+group == group
+
+[root@ip-172-31-32-197 srividya]# cat /etc/passwd
+suresh:x:1001:1001::/home/sureshbin/bash
+
+[root@ip-172-31-32-197 srividya]# cat /etc/group
+suresh:x:1001:
+
+If you want to delete the user
+
+    userdel -r user_name
+
+Exmple: userdel -r suresh
+
+
+  • Note:
+  • r = remove home directory and mail spool
+  
+  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+23)Creating and deleting the groups
+-----------------------------------
+
+1) If you want to create the group.
+• groupadd group_name
+
+Exmple: groupadd suresh 
+ 
+
+
+2)If you want to check whether user created or not.
+• cat /etc/group
+
+
+3) If you want to delete the group.
+• groupdel group_name
+
+Exmple: groupdel suresh
+
+Adding the users in group
+--------------------------
+
+       usermod –a –G group_name user_name
+
+Exmple: usermod -a -G srinivas suresh
+
+-a == means === append
+
+-G == means === group
+
+[root@ip-172-31-32-197 srividya]# usermod -a -G karv iare
+[root@ip-172-31-32-197 srividya]# id iare
+uid=1002(iare) gid=1002(iare) groups=1002(iare),1003(karv)
+---------------------------------------------------------------------------------------------------------------------------------
 
 
 
