@@ -17,7 +17,19 @@ Shell-scripitng
 
 4) ./t <file name>-----------> ./t suresh.sh
 
-5)  bash <file name> ----------->  bash suresh.sh
+5)  bash <file name> ----------->  bash suresh.sh   (Better use this command because of avoid permission in file name)
 
+---------------------------------------------------------------------
+
+6) How to identiy the status code in linux commends( if command is working or not)----see below commenad
+
+  echo $?
+
+  IF we get result ---o ----that is sucess command
+
+  if we get result--- anynumber ----that means command is failure
+
+
+7)
 
 
