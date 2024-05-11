@@ -7,6 +7,19 @@ Shell-scripitng
 
 2) env
 
-3)printenv
+3)printenv---------------Both are same
+
+4)    #!/bin/bash  -----> she bong shell
+
+       .sh   -------> this is sheel script extention
+
+
+       To Run Sheell- script
+----------------------------------------------------------------------
+
+5) ./t <file name>-----------> ./t suresh.sh
+
+6)  bash <file name> ----------->  bash suresh.sh
+
 
 
