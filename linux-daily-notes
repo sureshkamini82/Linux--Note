@@ -1,0 +1,47 @@
+1)Java 1.8--Linux command
+
+   yum install java-1.8.0-openjdk-devel
+   
+   java -version
+   
+2)Java 11 --Linux command
+ 
+   yum install java-11* -y
+   
+   yum remove java-11* -y
+   
+3) free -m
+
+sync; echo 3 > /proc/sys/vm/drop_caches
+
+ 
+java-11-openjdk is available in Amazon Linux Extra topic "java-openjdk11"
+
+To use, run
+# sudo amazon-linux-extras install java-openjdk11
+
+
+sudo amazon-linux-extras install java-openjdk11  -y
+
+4)netstat -ltnp
+
+  ps -ef |grep java
+
+5)jenkinks-----in the jenkins, for ssh key we need to run in jenkins user---this is important
+  
+ 3) ls -lrth
+    ls -larth
+	
+6)     cat /etc/os-release
+       cat /etc/system-release
+
+7) env
+   printenv
+   
+   echo $SHELL
+   
+   echo $?-----------To know the command is valide or not
+   
+   if we get 0 ---that is success
+   
+   if we get any numner-- that is called filed one
