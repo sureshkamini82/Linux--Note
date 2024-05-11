@@ -1,0 +1,12 @@
+Shell-scripitng
+-----------------
+
+
+
+1) echo $SHELL --------------These are called enviormental variables
+
+2) env
+
+3)printenv
+
+
