@@ -1,6 +1,8 @@
 Shell-scripitng
 -----------------
 
+****import point------IN the shell script always us "" --to prinut the variable data and  ""--kotanoo lekuda use chayachu******** 
+
 
 
 1) echo $SHELL --------------These are called enviormental variables
@@ -29,7 +31,41 @@ Shell-scripitng
 
   if we get result--- anynumber ----that means command is failure
 
+  for example
+  -----------
 
-7)
+   Sucess  -- 0
+   failure ---non zero
 
 
+7) command line arguments
+   ----------------------
+
+   bash suresh.sh------------>   this is file name
+
+   $0   ----------> script name or file name both are same
+
+
+   bash suresh.sh 1 2 3 4 5 --------------> here (1 2 3 4 5 )are called as arguments
+
+
+   $0 --------- >   script name
+   $1 ---------> 1
+   $2 ---------> 2
+   $#  --------> number of arguments passed to script
+   $* ---------> to store the all the arguments
+
+ 
+8) shell comment
+   --------------
+
+  # --------> comments
+
+  : ' ------> this is multiline commensts
+
+9) How to debug the shell script--------there are two ways
+   ----------------------------
+
+   1) bash -x <file name>  ------>   bash -x suresh.sh
+
+   2) set -x <file name>   -------> set -x suresh.sh

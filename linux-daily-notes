@@ -18,6 +18,8 @@ PWD ----- Pressent Working Directory  or Print Working Directory
 
 ..   ----------------------->this is called parent directory
 
+: set numer ------------------> in the vi editer, we will get line number by using this command---this is important command
+:set nonumber -------------->  we can remove line number in vi editor by using this command
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1)Java 1.8--Linux command
