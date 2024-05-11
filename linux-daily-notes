@@ -44,4 +44,17 @@ sudo amazon-linux-extras install java-openjdk11  -y
    
    if we get 0 ---that is success
    
-   if we get any numner-- that is called filed one
+   if we get any numner-- that is called failled one
+
+
+
+
+8)git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+#) To know the git account detils--- see below commands
+
+        git config --global --list
+
+        git config --global --edit
