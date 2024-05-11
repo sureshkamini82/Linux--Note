@@ -49,12 +49,4 @@ sudo amazon-linux-extras install java-openjdk11  -y
 
 
 
-8)git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
 
-
-#) To know the git account detils--- see below commands
-
-        git config --global --list
-
-        git config --global --edit
