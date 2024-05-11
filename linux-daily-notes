@@ -1,3 +1,21 @@
+Ports numbers
+----------------
+SUDO -----Super User Do Switch User
+YUM ----- Yellowdog Updater Modified
+PWD ----- Pressent Working Directory  or Print Working Directory
+
+
+1)SSH-----Secure Shell ---22
+2)RDP-----Remote Desktop Protocol ---3389
+3)HTTP------Hypertext Transfer Protocol-----80
+4)HTTPS----- Hypertext Transfer protocol Secure----465
+5)Jenkins ------8080
+6)Tomcat ------8080
+7)mysql --> 3306
+
+
+
+
 1)Java 1.8--Linux command
 
    yum install java-1.8.0-openjdk-devel
