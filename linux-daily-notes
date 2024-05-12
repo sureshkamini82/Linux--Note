@@ -147,8 +147,18 @@ Exmple: usermod -a -G srinivas suresh
 [root@ip-172-31-32-197 srividya]# id iare
 uid=1002(iare) gid=1002(iare) groups=1002(iare),1003(karv)
 ---------------------------------------------------------------------------------------------------------------------------------
+useradd suresh
+passwd suresh
 
+sudo su suresh
 
+su - suresh
+
+## Allow root to run any commands anywhere
+root    ALL=(ALL)       ALL
+
+chage -l iare
+----------------------------------------------------------------------------------------------------------------------
 
 
 
