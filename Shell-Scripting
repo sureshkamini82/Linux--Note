@@ -11,6 +11,10 @@ Shell-scripitng
 
 3)    #!/bin/bash  -----> she bong shell
 
+
+       set -x -----------> to show all commands
+
+
        .sh   -------> this is sheel script extention
 
 
