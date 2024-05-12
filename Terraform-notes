@@ -1,6 +1,72 @@
+WINDOW Installtion process steps::
+
+----------------------------------------------------
+To install Terraform on Windows, you can follow these steps:
+
+1) Download Terraform:
+----------------------
+     1)Visit the Terraform downloads page: Terraform Downloads.
+      
+
+      https://developer.hashicorp.com/terraform/install#windows(Download ---- AMD64)
+
+     2)Download the Windows version of Terraform (Download ---- AMD64). It's distributed as a zip archive.
+
+
+
+2) Extract the Zip Archive:
+---------------------------
+     1) Once the download is complete, locate the downloaded zip file.
+
+     2) Right-click on the zip file and select "Extract All...".
+      
+     3)Choose a destination folder where you want to extract the files and click "Extract".( for folder please given in C drive)
+
+
+3)Add Terraform to System Path:
+--------------------------------
+
+      1)After extraction, you need to add the folder containing the Terraform executable to your system's PATH environment variable. This allows you to run Terraform from any command prompt.
+
+
+      2) Right-click on "This PC" or "My Computer" and select "Properties".
+
+      3) Click on "Advanced system settings" on the left panel.
+
+      4) In the user variable window, click on the "path"----->Click on the "Edit..." button.---------------> and give terraform path here and save
+
+      4.1) In the System Properties window, click on the "Environment Variables..." button.
+
+      5) In the Environment Variables window, under "System variables", find the "Path" variable and select it.
+
+      6) Click on the "Edit..." button.
+
+      7) Click on "New" and then add the path to the folder where you extracted the Terraform executable.
+ 
+      8) Click "OK" to close all the windows.
+
+
+4) Verify Installation:
+-----------------------
+
+      1) Open a new command prompt.
+
+      2) Type terraform -v and press Enter.
+
+
+
+You should see the Terraform version information if the installation was successful.
+That's it! You've successfully installed Terraform on your Windows system. You can now start using it to manage your infrastructure as code.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Infrastructure
--------------------
-Infra is very important to create business...
+-------------------------------
+1)  Infra is very important to create business...
+
+2) DEV , QA , PROD, etc-------These are called environments
 
 Disadvantages
 --------------
@@ -20,7 +86,7 @@ Infra as a code
 2. same infra across environments --> DEV, QA, PROD, etc.
 working in DEV, failed in PROD. run the same code in all environments that create same infra everywhere.
 
-3. CRUD --> Read. 
+3. CRUD --> Create , Read, update , Delete
 4. inventory --> list of resources for the project in terms of infra.
 5. dependency --> dependencies would be automatically resolved while CRUD.
 6. cost --> creation and deletion takes less time, so cost can be reduced.
