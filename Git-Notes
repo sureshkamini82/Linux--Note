@@ -22,11 +22,11 @@ SSL certificate problem: self signed certificate in certificate chain------if i 
 ---------------------------------------------------------------------
 
 
-4)git config --global http.sslbackend schannel
+4) git config --global http.sslbackend schannel
 
 
 
-
+5) git add . ; git commit -m "some message"; git push origin main
 
 
 
