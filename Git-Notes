@@ -9,6 +9,11 @@
 
         git config --global --edit
 
+
+
+Git wont ask if we use below command for token
+------------------------------------------------
+
 3) git config --global credential.helper store
 
 
