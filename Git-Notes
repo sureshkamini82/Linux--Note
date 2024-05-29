@@ -32,6 +32,8 @@ SSL certificate problem: self signed certificate in certificate chain------if i 
 
 7) git log --online
 
+8) git show
+
 
 
 
