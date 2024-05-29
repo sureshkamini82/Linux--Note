@@ -28,6 +28,12 @@ SSL certificate problem: self signed certificate in certificate chain------if i 
 
 5) git add . ; git commit -m "some message"; git push origin main
 
+6) git log
+
+7) git log --online
+
+
+
 
 
 

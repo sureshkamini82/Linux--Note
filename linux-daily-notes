@@ -8,7 +8,7 @@ PWD ----- Pressent Working Directory  or Print Working Directory
 1)SSH-----Secure Shell ---22
 2)RDP-----Remote Desktop Protocol ---3389
 3)HTTP------Hypertext Transfer Protocol-----80
-4)HTTPS----- Hypertext Transfer protocol Secure----465
+4)HTTPS----- Hypertext Transfer protocol Secure----443
 5)Jenkins ------8080
 6)Tomcat ------8080
 7)mysql --> 3306
@@ -42,7 +42,8 @@ sync; echo 3 > /proc/sys/vm/drop_caches
 java-11-openjdk is available in Amazon Linux Extra topic "java-openjdk11"
 
 To use, run
-# sudo amazon-linux-extras install java-openjdk11
+# sudo amazon-linux-extras install java-openjdk11-----------use below command
+-------------------------------------------------
 
 
 sudo amazon-linux-extras install java-openjdk11  -y
@@ -159,6 +160,9 @@ root    ALL=(ALL)       ALL
 
 chage -l iare
 ----------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
