@@ -13,6 +13,13 @@
 
 
 
+SSL certificate problem: self signed certificate in certificate chain------if i git this error, please use below command
+---------------------------------------------------------------------
+
+
+4)git config --global http.sslbackend schannel
+
+
 
 
 
