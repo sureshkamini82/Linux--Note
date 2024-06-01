@@ -11,7 +11,7 @@
 
 
 
-Git wont ask if we use below command for token
+Git wont(token) ask if we use below command for token
 ------------------------------------------------
 
 3) git config --global credential.helper store
@@ -33,6 +33,8 @@ SSL certificate problem: self signed certificate in certificate chain------if i 
 7) git log --online
 
 8) git show
+
+9)
 
 
 
