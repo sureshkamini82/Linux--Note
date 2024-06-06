@@ -60,7 +60,14 @@ sudo amazon-linux-extras install java-openjdk11  -y
 6)     cat /etc/os-release
        cat /etc/system-release
 
-7) env
+
+7)   cat /etc/passwd
+
+
+     cat /etc/group
+
+
+8) env
    printenv
    
    echo $SHELL
